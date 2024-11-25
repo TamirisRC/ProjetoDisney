@@ -1,0 +1,148 @@
+/* Estilos para a Disney Store */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #6a1b9a;
+}
+
+/* Navbar personalizada com cor roxa */
+.navbar-purple {
+    background-color: #6a1b9a !important; /* Um tom de roxo */
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.navbar .navbar-brand {
+    color: #6a1b9a !important; /* Cor amarela para o logo */
+}
+
+.navbar-toggler-icon {
+    background-color: white; /* Cor do ícone do menu */
+}
+
+.container {
+    padding-top: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 2px solid #f0ad4e; /* Cor amarela que lembra o dourado Disney */
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #6a1b9a; /* Azul Disney */
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.card-img-top {
+    border-radius: 15px 15px 0 0;
+}
+
+.btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+
+.btn-warning {
+    background-color: #f0ad4e;
+    border-color: #ec971f;
+}
+
+.btn-warning:hover {
+    background-color: #ec971f;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    border-color: #c9302c;
+}
+
+.btn-danger:hover {
+    background-color: #c9302c;
+}
+
+/* Adicionando efeitos de hover para os cards */
+.card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Estilo para os botões ativos na navbar */
+.nav-link.active {
+    font-weight: bold;
+}
+
+/* Estilo para o formulário */
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+    border-color: #6a1b9a; /* Cor roxa para o campo de input quando em foco */
+    box-shadow: 0 0 0 0.2rem rgba(106, 27, 154, 0.25); /* Sombra roxa para input em foco */
+}
+
+.btn-primary {
+    background-color: #6a1b9a; /* Azul Disney para o botão */
+    border-color: #6a1b9a;
+}
+
+.btn-primary:hover {
+    background-color: #6a1b9a; /* Azul mais escuro no hover */
+}
+
+/* Adicionando uma classe para o título da página */
+h4 {
+    font-weight: bold;
+    color: #6a1b9a; /* Cor roxa para títulos */
+}
+
+/* Personalizando o botão de submit do formulário */
+button[type="submit"] {
+    background-color: #ffcc00; /* Cor amarela para o botão */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #f0ad4e; /* Amarelo mais intenso no hover */
+}
+
+/* Personalizando o logo na navbar */
+.logo-nav {
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* Navbar com cor roxa suave */
+.navbar {
+    background-color: #6a1b9a; /* Cor roxa suave */
+}
+
+/* Estilos para a logo */
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
